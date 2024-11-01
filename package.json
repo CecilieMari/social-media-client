@@ -8,7 +8,8 @@
     "start": "sass --watch src/scss:dist/css & live-server",
     "dev": "npm run start",
     "format": "prettier --write .",
-    "lint": "eslint ."
+    "check-format": "prettier --check .",
+    "lint": "eslint . --fix"
   },
   "keywords": [],
   "author": "Noroff",
